@@ -1,0 +1,266 @@
+body {
+  margin: auto;
+  background: linear-gradient(90deg, blue, purple);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  user-select: none;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.sajjad-nav {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 1px solid #888;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.brand img {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1f2937;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+}
+
+.accent {
+  color: #444;
+  margin-left: 5px;
+}
+
+.tagline {
+  font-weight: 500;
+  color: #6b7280;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+  .sajjad-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .tagline {
+    font-size: 0.9rem;
+  }
+}
+
+form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px auto;
+  margin-bottom: 20px;
+  width: 280px;
+  height: auto;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.top-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.Increase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 140px;
+  color: #ffffff;
+  background-color: rgb(31, 192, 101);
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px auto;
+  transition: all 0.5s ease;
+}
+
+.Increase:hover {
+  box-shadow: 0px 1px 4px #666;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.Reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 140px;
+  color: black;
+  background-color: #cdcdcd;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px auto;
+  transition: all 0.5s ease;
+}
+
+.Reset:hover {
+  box-shadow: 0px 1px 4px #666;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.Decrease:hover {
+  box-shadow: 0px 1px 4px #666;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.Decrease {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(230, 55, 55);
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 5px auto;
+  transition: all 0.5s ease;
+}
+
+.odd-even {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1f2937;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 280px;
+  height: 40px;
+  background-color: #ffffff;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
