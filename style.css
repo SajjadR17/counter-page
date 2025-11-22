@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  background: linear-gradient(90deg, blue, purple);
+  background: #d4d4d4;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   user-select: none;
@@ -175,6 +175,7 @@ form {
   height: auto;
   padding: 15px;
   border-radius: 20px;
+  border: 1px solid black;
   text-align: center;
 }
 
@@ -256,11 +257,11 @@ form {
   text-align: center;
   color: #1f2937;
   margin: auto;
+  border: 1px solid black;
   margin-bottom: 30px;
   width: 280px;
   height: 40px;
   background-color: #ffffff;
   padding: 15px;
-  border: none;
   border-radius: 20px;
 }
